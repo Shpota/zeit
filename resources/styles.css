@@ -8,6 +8,16 @@
   text-length: 32;
   text-anchor: middle;
   x: 50%;
-  y: 50%+40;
+  y: 40%+40;
+  fill: white;
+}
+
+#wordBox {
+  font-size: 30;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 60%+40;
   fill: white;
 }
