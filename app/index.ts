@@ -1,29 +1,24 @@
 import clock, {TickEvent} from "clock";
 import document from "document";
 import {preferences} from "user-settings";
+import {Time} from "./time";
 
 clock.granularity = "seconds";
 
 const timeBox = document.getElementById("timeBox");
-
-function zeroPad(num: number): string {
-    return num < 10 ? `0${num}` : `${num}`;
-}
+const wordBox = document.getElementById("wordBox");
 
 function handleTick(event: TickEvent): void {
-    const today = event.date;
-    let hours: string;
-    if (preferences.clockDisplay === "12h") {
-        hours = String(today.getHours() % 12 || 12);
-    } else {
-        hours = zeroPad(today.getHours());
-    }
-    const mins = zeroPad(today.getMinutes());
-    if (today.getSeconds() % 2) {
-        timeBox.text = `${hours}:${mins}`;
-    } else {
-        timeBox.text = `${hours} ${mins}`;
-    }
+    const now = event.date;
+    const twelveHoursFormat = preferences.clockDisplay === "12h";
+    const time = new Time(
+        now.getHours(),
+        now.getMinutes(),
+        now.getSeconds(),
+        twelveHoursFormat
+    );
+    timeBox.text = time.inNumbers();
+    wordBox.text = time.inWords();
 }
 
 clock.ontick = handleTick;

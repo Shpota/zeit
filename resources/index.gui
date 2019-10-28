@@ -1,3 +1,4 @@
 <svg class="background">
   <text id="timeBox" />
+  <text id="wordBox" />
 </svg>

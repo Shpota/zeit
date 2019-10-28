@@ -1,3 +1,7 @@
 {
-  "extends": "./node_modules/@fitbit/sdk/sdk-tsconfig.json"
+  "extends": "./node_modules/@fitbit/sdk/sdk-tsconfig.json",
+  "compilerOptions": {
+    "types": ["jest", "node"]
+  },
+  "exclude": ["**/*.spec.ts"]
 }
