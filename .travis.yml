@@ -6,4 +6,7 @@ before_install:
   - sudo apt-get install libsecret-1-dev
 
 script:
-  - npm test
+  - npm test -- --coverage
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
