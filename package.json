@@ -31,5 +31,14 @@
     "build": "fitbit-build",
     "debug": "fitbit",
     "test": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "roots": ["<rootDir>/app"],
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
+    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
   }
 }
