@@ -1,4 +1,4 @@
-import {Time} from "./time";
+import {Time} from "../time";
 
 test('should convert 10:00 to words', () =>
     expect(words('10:00')).toBe('zehn Uhr')
