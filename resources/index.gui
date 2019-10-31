@@ -1,4 +1,6 @@
 <svg class="background">
-  <text id="timeBox" />
-  <text id="wordBox" />
+  <text id="timeBox"/>
+  <text id="timeBoxShadow" opacity="0.4"/>
+  <text id="wordBox"/>
+  <text id="wordBoxShadow" opacity="0.3"/>
 </svg>

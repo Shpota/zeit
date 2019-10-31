@@ -4,7 +4,6 @@ export class Time {
     constructor(
         private hours: number,
         private minutes: number,
-        private seconds: number = 0,
         private twelveHourFormat: boolean = false
     ) {}
 
@@ -50,11 +49,8 @@ export class Time {
             hours = String(this.hours);
         }
         const mins = this.zeroPad(this.minutes);
-        if (this.seconds % 2) {
-            return `${hours}:${mins}`;
-        } else {
-            return `${hours} ${mins}`;
-        }
+        return `${hours}:${mins}`;
+
     }
 
     private inTwelveHourFormat(hours: number): number {

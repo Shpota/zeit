@@ -80,20 +80,12 @@ test('should convert 00:00 to words', () =>
     expect(words('00:00')).toBe('zwölf Uhr')
 );
 
-test('should convert to numbers with a colon', () =>
-    expect(numeric('10:20:01')).toBe('10:20')
-);
-
-test('should convert to numbers without a colon', () =>
-    expect(numeric('10:20:02')).toBe('10 20')
-);
-
-test('should convert to numbers in 24h format', () =>
-    expect(numeric('15:20:01')).toBe('15:20')
+test('should convert to numbers', () =>
+    expect(numeric('15:20')).toBe('15:20')
 );
 
 test('should convert to numbers in 12h format', () =>
-    expect(numeric('15:02:01', true)).toBe('3:02')
+    expect(numeric('15:20', true)).toBe('3:20')
 );
 
 function words(timeStr: string, twelveHourFormat: boolean = false): string {
@@ -107,5 +99,5 @@ function numeric(timeStr: string, twelveHourFormat: boolean = false): string {
 function time(time: string, twelveHourFormat: boolean = false): Time {
     const parts = time.split(':');
     const seconds = parts.length === 3 ? Number(parts[2]) : 0;
-    return new Time(Number(parts[0]), Number(parts[1]), seconds, twelveHourFormat);
+    return new Time(Number(parts[0]), Number(parts[1]), twelveHourFormat);
 }

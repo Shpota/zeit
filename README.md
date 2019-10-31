@@ -5,3 +5,6 @@ German language.
 
 The clock face shows time in numeric format
 and duplicates it in German transcript.
+
+<img src="screenshot/7_37.png" width="200px"/> <img src="screenshot/11_45.png" width="200px"/> 
+ 
