@@ -30,7 +30,8 @@
   "scripts": {
     "build": "fitbit-build",
     "debug": "fitbit",
-    "test": "jest"
+    "test": "jest",
+    "clear_jest": "jest --clearCache"
   },
   "jest": {
     "verbose": true,
@@ -40,7 +41,14 @@
     "transform": {
       "^.+\\.tsx?$": "ts-jest"
     },
-    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
+    "testRegex": "((\\.|/)(test|spec))\\.tsx?$",
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "app/*.ts"
+    ],
+    "moduleNameMapper": {
+      "mocks": "app/test/mocks.ts"
+    },
     "moduleFileExtensions": [
       "ts",
       "tsx",
