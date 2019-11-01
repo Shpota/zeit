@@ -3,7 +3,7 @@ import document from "document";
 import {preferences} from "user-settings";
 import {Time} from "./time";
 
-clock.granularity = "seconds";
+clock.granularity = "minutes";
 
 const timeBox = document.getElementById("timeBox");
 const timeBoxShadow = document.getElementById("timeBoxShadow");

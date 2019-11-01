@@ -12,7 +12,11 @@ export class Time {
         const currentHour = this.toWords(hour);
         const m = this.minutes;
         if (m === 0) {
-            return currentHour + " Uhr";
+            if (hour === 1) {
+                return "ein Uhr";
+            } else {
+                return currentHour + " Uhr";
+            }
         }
         if (m === 15) {
             return `Viertel nach ${currentHour}`;

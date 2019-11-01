@@ -1,5 +1,9 @@
 import {Time} from "../time";
 
+test('should convert 1:00 to words', () =>
+    expect(words('1:00')).toBe('ein Uhr')
+);
+
 test('should convert 10:00 to words', () =>
     expect(words('10:00')).toBe('zehn Uhr')
 );
