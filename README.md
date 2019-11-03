@@ -1,4 +1,4 @@
-Die Zeit [![Build Status](https://travis-ci.com/Shpota/zeit.svg?branch=master)](https://travis-ci.com/Shpota/zeit) [![codecov](https://codecov.io/gh/Shpota/zeit/branch/master/graph/badge.svg)](https://codecov.io/gh/Shpota/zeit)
+Die Zeit [![Build Status](https://travis-ci.com/Shpota/zeit.svg?branch=master)](https://travis-ci.com/Shpota/zeit) [![codecov](https://codecov.io/gh/Shpota/zeit/branch/master/graph/badge.svg)](https://codecov.io/gh/Shpota/zeit) [![Join the chat at https://gitter.im/die-zeit/community](https://badges.gitter.im/die-zeit/community.svg)](https://gitter.im/die-zeit/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ========
 A simple Fitbit clock face for learners of the
 German language.
