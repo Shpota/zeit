@@ -2,7 +2,7 @@
   "name": "zeit",
   "version": "0.1.0",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "Apache License 2.0",
   "devDependencies": {
     "@fitbit/sdk": "~4.0.1",
     "@fitbit/sdk-cli": "~1.7.0",
