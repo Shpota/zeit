@@ -102,6 +102,5 @@ function numeric(timeStr: string, twelveHourFormat: boolean = false): string {
 
 function time(time: string, twelveHourFormat: boolean = false): Time {
     const parts = time.split(':');
-    const seconds = parts.length === 3 ? Number(parts[2]) : 0;
     return new Time(Number(parts[0]), Number(parts[1]), twelveHourFormat);
 }

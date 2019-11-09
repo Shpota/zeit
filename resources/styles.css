@@ -10,24 +10,35 @@ text {
   fill: white;
 }
 
+#dateBox {
+  font-size: 26;
+  y: 10%;
+}
+
+#dateBoxShadow {
+  font-size: 26;
+  x: 50%+2;
+  y: 10%+2;
+}
+
 #timeBox {
   font-size: 120;
-  y: 40%+40;
+  y: 45%+40;
 }
 
 #timeBoxShadow {
   font-size: 120;
   x: 50%+3;
-  y: 40%+43;
+  y: 45%+43;
 }
 
 #wordBox {
   font-size: 30;
-  y: 60%+40;
+  y: 85%;
 }
 
 #wordBoxShadow {
   font-size: 30;
   x: 50%+2;
-  y: 60%+42;
+  y: 85%+2;
 }

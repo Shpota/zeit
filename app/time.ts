@@ -1,4 +1,4 @@
-import {transcription} from "./transcription";
+import {numbers} from "./translation";
 
 export class Time {
     constructor(
@@ -62,7 +62,7 @@ export class Time {
     }
 
     private toWords(num: number): string {
-        return transcription[num];
+        return numbers[num];
     }
 
     private zeroPad(num: number): string {
