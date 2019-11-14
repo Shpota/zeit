@@ -6,7 +6,7 @@ and duplicates it in German transcript. You can download
 the app
 [from the Fitbit App Gallery](https://gallery.fitbit.com/details/661063e3-60d4-4b50-a2a1-5bfacca11bb3).
 
-<img src="screenshot/versa_12_38.png" width="300px"/> <img src="screenshot/ionic_12_31.png" width="300px"/> 
+<img src="screenshot/versa.png" height="350px"/> <img src="screenshot/ionic.png" height="350px"/> 
 
 ## How to build
 
