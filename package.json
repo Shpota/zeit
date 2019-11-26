@@ -7,10 +7,10 @@
     "@fitbit/sdk": "~4.0.1",
     "@fitbit/sdk-cli": "~1.7.0",
     "@types/jest": "~24.0.23",
-    "@types/node": "~12.12.8",
+    "@types/node": "~12.12.14",
     "fitbit-sdk-types": "~4.2.0",
     "jest": "~24.9.0",
-    "ts-jest": "~24.1.0",
+    "ts-jest": "~24.2.0",
     "typescript": "~3.7.2"
   },
   "fitbit": {

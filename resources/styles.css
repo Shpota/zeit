@@ -11,12 +11,12 @@ text {
 }
 
 #dateBox {
-  font-size: 26;
+  font-size: 22;
   y: 10%;
 }
 
 #dateBoxShadow {
-  font-size: 26;
+  font-size: 22;
   x: 50%+2;
   y: 10%+2;
 }
