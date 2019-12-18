@@ -6,9 +6,9 @@
   "devDependencies": {
     "@fitbit/sdk": "~4.0.1",
     "@fitbit/sdk-cli": "~1.7.1",
-    "@types/jest": "~24.0.23",
-    "@types/node": "~12.12.17",
-    "fitbit-sdk-types": "~4.2.0",
+    "@types/jest": "~24.0.24",
+    "@types/node": "~12.12.21",
+    "fitbit-sdk-types": "~4.2.3",
     "jest": "~24.9.0",
     "ts-jest": "~24.2.0",
     "typescript": "~3.7.3"
@@ -41,7 +41,7 @@
       "<rootDir>/app"
     ],
     "transform": {
-      "~.+\\.tsx?$": "ts-jest"
+      "^.+\\.tsx?$": "ts-jest"
     },
     "testRegex": "((\\.|/)(test|spec))\\.tsx?$",
     "collectCoverage": true,
