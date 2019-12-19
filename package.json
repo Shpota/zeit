@@ -5,13 +5,13 @@
   "license": "Apache License 2.0",
   "devDependencies": {
     "@fitbit/sdk": "~4.0.1",
-    "@fitbit/sdk-cli": "~1.7.0",
-    "@types/jest": "~24.0.23",
-    "@types/node": "~12.12.14",
-    "fitbit-sdk-types": "~4.2.0",
+    "@fitbit/sdk-cli": "~1.7.1",
+    "@types/jest": "~24.0.24",
+    "@types/node": "~12.12.21",
+    "fitbit-sdk-types": "~4.2.3",
     "jest": "~24.9.0",
     "ts-jest": "~24.2.0",
-    "typescript": "~3.7.2"
+    "typescript": "~3.7.3"
   },
   "fitbit": {
     "appUUID": "661063e3-60d4-4b50-a2a1-5bfacca11bb3",
