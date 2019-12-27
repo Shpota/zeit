@@ -9,7 +9,7 @@ export class Date {
 
     inWords(): string {
         const month = months[this.month];
-        return `${this.weekDay()}, den ${this.date} ${month}`;
+        return `${this.weekDay()}, der ${this.date}. ${month}`;
     }
 
     private weekDay(): string {

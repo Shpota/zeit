@@ -1,14 +1,14 @@
 {
   "name": "zeit",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "license": "Apache License 2.0",
   "devDependencies": {
-    "@fitbit/sdk": "~4.0.1",
+    "@fitbit/sdk": "~4.1.0",
     "@fitbit/sdk-cli": "~1.7.1",
     "@types/jest": "~24.0.24",
     "@types/node": "~12.12.21",
-    "fitbit-sdk-types": "~4.2.3",
+    "fitbit-sdk-types": "~4.3.0",
     "jest": "~24.9.0",
     "ts-jest": "~24.2.0",
     "typescript": "~3.7.3"
