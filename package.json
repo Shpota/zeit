@@ -6,12 +6,12 @@
   "devDependencies": {
     "@fitbit/sdk": "~4.1.0",
     "@fitbit/sdk-cli": "~1.7.1",
-    "@types/jest": "~24.0.24",
-    "@types/node": "~12.12.21",
-    "fitbit-sdk-types": "~4.3.0",
-    "jest": "~24.9.0",
+    "@types/jest": "~25.2.1",
+    "@types/node": "~13.11.0",
+    "fitbit-sdk-types": "~4.3.5",
+    "jest": "~25.2.7",
     "ts-jest": "~24.2.0",
-    "typescript": "~3.7.3"
+    "typescript": "~3.8.3"
   },
   "fitbit": {
     "appUUID": "661063e3-60d4-4b50-a2a1-5bfacca11bb3",
