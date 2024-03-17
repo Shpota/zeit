@@ -34,6 +34,7 @@ Fork the repository, make changes, send me a pull request
 and I'll review it shortly.
 
 ## Supported devices
+- Versa 3
 - Versa 2
 - Versa
 - Versa Light
