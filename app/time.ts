@@ -4,7 +4,7 @@ export class Time {
     constructor(
         private hours: number,
         private minutes: number,
-        private twelveHourFormat: boolean = false
+        private twelveHourFormat: boolean = true
     ) {}
 
     inWords(): string {
@@ -15,7 +15,7 @@ export class Time {
             if (hour === 1) {
                 return "ein Uhr";
             } else {
-                return currentHour + " Uhr";
+                return currentHour + " Uhrs";
             }
         }
         if (m === 15) {
